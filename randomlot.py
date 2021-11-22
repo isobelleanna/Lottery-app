@@ -19,3 +19,6 @@ elif correct_numbers == 7:
     prize_money = 100000
 else:
     prize_money = 0
+
+print(
+    f'The winning numbers are {lottery_arr}.\nYou have {correct_numbers} matching numbers and your total winnings are £{prize_money}.')
